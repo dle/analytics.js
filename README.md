@@ -1,6 +1,8 @@
 analytics.js
 ============
 
+Personal fork of analytics.js.
+
 [![Build Status](https://travis-ci.org/segmentio/analytics.js.png?branch=master)](https://travis-ci.org/segmentio/analytics.js)
 
 The hassle-free way to integrate analytics into any web application. [See the docs.](https://segment.io/libraries/analytics.js/)
