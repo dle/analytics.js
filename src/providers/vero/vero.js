@@ -5,7 +5,8 @@
 analytics.addProvider('Vero', {
 
     settings : {
-        apiKey : null
+        apiKey : null,
+        developmentMode: false
     },
 
 
@@ -19,7 +20,8 @@ analytics.addProvider('Vero', {
 
         var _veroq = window._veroq = window._veroq || [];
         _veroq.push(['init', {
-            api_key: settings.apiKey
+            api_key: settings.apiKey,
+            development_mode: settings.developmentMode
         }]);
         (function(){
             var ve = document.createElement('script');

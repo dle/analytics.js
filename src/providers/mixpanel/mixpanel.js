@@ -81,7 +81,10 @@ analytics.addProvider('Mixpanel', {
                 'lastName'  : '$last_name',
                 'lastSeen'  : '$last_seen',
                 'name'      : '$name',
-                'username'  : '$username'
+                'username'  : '$username',
+                'first_name' : '$first_name',
+                'last_name'  : '$last_name',
+                'last_seen'  : '$last_seen'
             });
         }
 
